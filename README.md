@@ -1,56 +1,33 @@
 <div align="center">
 
-<img src="assets/hero.gif" alt="Animated Shady's Basement banner with orbiting code motif and a typing terminal" width="100%" />
-
-<br />
-
-### Hey, I'm shady 👋
-
-**I build web experiences, explore systems, and turn strange ideas into real hardware.**
-
-<a href="#about-me">About</a> &nbsp;·&nbsp; <a href="#tech-stack">Tech stack</a> &nbsp;·&nbsp; <a href="#on-the-workbench">Projects</a> &nbsp;·&nbsp; <a href="#contributions">Contributions</a>
+<img src="assets/dashboard.gif" alt="A dark dashboard introducing shady, current projects, and tools" width="100%" />
 
 </div>
 
----
+## I'm shady.
 
-### About me
+I like making things that sit somewhere between a screen and a workbench. Sometimes that's a web app; sometimes it's an operating system you have to solve, or a piece of hardware from a TV show made real. I'm part of [Hack Club](https://hackclub.com/).
 
-I'm a builder who likes crossing the line between software and hardware. One day that means a web interface; the next it means an operating-system puzzle, an eBPF experiment, or a prop made real. I'm part of [Hack Club](https://hackclub.com/), and this new GitHub is where I'm sharing the journey from the first commit onward.
+### What I'm working on
 
-> **Currently exploring:** Altium Designer, PCB design, 3D printing, cybersecurity, and biohacking.
-
-### Tech stack
-
-| Web and UI | Languages and data | 3D and design |
-| :-- | :-- | :-- |
-| **React** · **Next.js** · **Vite** | **Python** · **Java** · **C / C++** | **Blender** · **Fusion 360** |
-| **Node.js** · **Tailwind CSS** · **HTML** | **PostgreSQL** | From concept to prototype |
-
-### On the workbench
-
-| Project | What I'm making |
+| Project | The idea |
 | :-- | :-- |
-| **eBPF stealth rootkit** | A low-level systems and cybersecurity experiment. |
-| **OS-based puzzle game** | A game where the operating system is part of the puzzle. |
-| **TemPad** | A hardware build inspired by the device from *Loki*. |
+| **TemPad** | A real hardware take on the device from *Loki*. |
+| **OS puzzle game** | A puzzle game where using the operating system is part of figuring it out. |
+| **eBPF rootkit research** | A low-level security project exploring how Linux systems behave under the hood. |
 
-These are works in progress. I'll link the source and build notes here as they become public.
+### What I use
+
+| | |
+| :-- | :-- |
+| **Web** | React, Next.js, Vite, Node.js, Tailwind CSS, HTML |
+| **Languages and data** | Python, Java, C, C++, PostgreSQL |
+| **Design and fabrication** | Blender, Fusion 360 |
+
+I'm learning Altium Designer, PCB design, 3D printing, cybersecurity, and biohacking. The project list will get links as I publish the work.
 
 ### Contributions
 
-This account is a fresh start. The activity below is real and will grow as I publish code, fixes, and build logs.
+This account is a fresh start. [The contribution graph](https://github.com/shadysbasement?tab=overview) is the real record of what I've put out so far.
 
-**[See my live GitHub contribution activity →](https://github.com/shadysbasement?tab=overview)**
-
-### Say hello
-
-Have an idea, want to collaborate, or just want to talk about a build? [Start a conversation in this repo](https://github.com/shadysbasement/shadysbasement/issues/new).
-
----
-
-<div align="center">
-
-<sub>Code · circuits · curiosity</sub>
-
-</div>
+If you want to talk about any of it, [open an issue here](https://github.com/shadysbasement/shadysbasement/issues/new).
