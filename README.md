@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/ascii.gif" alt="Animated ASCII art spelling SHADY beside an Arch Linux terminal" width="100%" />
+  <img src="assets/ascii-v2.gif" alt="Animated ASCII art spelling SHADY beside an Arch Linux terminal" width="100%" />
 </p>
 
 ## Hey, I'm shady
@@ -22,7 +22,7 @@ These are works in progress. I'll link the code and build notes as I put them ou
 
 ### Tech stack
 
-<img src="assets/stack.png" alt="Logos for Arch Linux, Node.js, Vite, Next.js, React, Tailwind CSS, HTML5, Python, Java, PostgreSQL, C, C++, Blender, and Fusion 360" width="100%" />
+<img src="assets/stack-v2.png" alt="Logos for Arch Linux, Node.js, Vite, Next.js, React, Tailwind CSS, HTML5, Python, Java, PostgreSQL, C, C++, Blender, and Fusion 360" width="100%" />
 
 I'm learning Altium Designer, PCB design, 3D printing, cybersecurity, and biohacking.
 
