@@ -1,33 +1,35 @@
-<div align="center">
+<p align="center">
+  <img src="assets/metrics.gif" alt="Animated GitHub-style dashboard showing shady's profile, activity, contributions, projects, and technologies" width="100%" />
+</p>
 
-<img src="assets/dashboard.gif" alt="A dark dashboard introducing shady, current projects, and tools" width="100%" />
+<p align="center">
+  <img src="assets/ascii.gif" alt="Animated ASCII art spelling SHADY beside an Arch Linux terminal" width="100%" />
+</p>
 
-</div>
+## Hey, I'm shady
 
-## I'm shady.
+I use Arch Linux and spend a lot of time moving between a browser, a terminal, and a workbench. I like web apps, odd interfaces, low-level systems, and making physical versions of things that started as fiction. I'm part of [Hack Club](https://hackclub.com/).
 
-I like making things that sit somewhere between a screen and a workbench. Sometimes that's a web app; sometimes it's an operating system you have to solve, or a piece of hardware from a TV show made real. I'm part of [Hack Club](https://hackclub.com/).
+### On the workbench
 
-### What I'm working on
-
-| Project | The idea |
+| Project | What it is |
 | :-- | :-- |
 | **TemPad** | A real hardware take on the device from *Loki*. |
-| **OS puzzle game** | A puzzle game where using the operating system is part of figuring it out. |
-| **eBPF rootkit research** | A low-level security project exploring how Linux systems behave under the hood. |
+| **OS puzzle game** | A game where figuring out the operating system is part of the puzzle. |
+| **eBPF stealth rootkit** | A systems and security experiment I'm building to learn more about Linux internals. |
 
-### What I use
+These are works in progress. I'll link the code and build notes as I put them out.
 
-| | |
-| :-- | :-- |
-| **Web** | React, Next.js, Vite, Node.js, Tailwind CSS, HTML |
-| **Languages and data** | Python, Java, C, C++, PostgreSQL |
-| **Design and fabrication** | Blender, Fusion 360 |
+### Tech stack
 
-I'm learning Altium Designer, PCB design, 3D printing, cybersecurity, and biohacking. The project list will get links as I publish the work.
+<img src="assets/stack.png" alt="Logos for Arch Linux, Node.js, Vite, Next.js, React, Tailwind CSS, HTML5, Python, Java, PostgreSQL, C, C++, Blender, and Fusion 360" width="100%" />
 
-### Contributions
+I'm learning Altium Designer, PCB design, 3D printing, cybersecurity, and biohacking.
 
-This account is a fresh start. [The contribution graph](https://github.com/shadysbasement?tab=overview) is the real record of what I've put out so far.
+### Activity and contributions
 
-If you want to talk about any of it, [open an issue here](https://github.com/shadysbasement/shadysbasement/issues/new).
+This is a new account, so the charts are still filling in. The dashboard above is a snapshot; [GitHub's contribution calendar](https://github.com/shadysbasement?tab=overview) is the live version. PageSpeed and language breakdowns will appear once there's a public site and source code to measure.
+
+If one of these projects sounds interesting, [open an issue here](https://github.com/shadysbasement/shadysbasement/issues/new).
+
+<sub>Technology logos from [Devicon](https://github.com/devicons/devicon).</sub>
