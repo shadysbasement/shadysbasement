@@ -6,9 +6,9 @@
   <img src="assets/ascii-v2.gif" alt="Animated ASCII art spelling SHADY beside an Arch Linux terminal" width="100%" />
 </p>
 
-## Hey, I'm shady
+## hiiiii
 
-I use Arch Linux and spend a lot of time moving between a browser, a terminal, and a workbench. I like web apps, odd interfaces, low-level systems, and making physical versions of things that started as fiction. I'm part of [Hack Club](https://hackclub.com/).
+I use Arch Linux and spend a lot of time moving between a browser, a terminal, and a workbench. I like web apps, odd interfaces, low-level systems, and making physical versions of things that started as fiction.
 
 ### On the workbench
 
