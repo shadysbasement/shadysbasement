@@ -22,7 +22,7 @@ These are illustrations of projects I'm still building. I'll replace them with b
 
 <img src="assets/signals.svg" alt="Recent public pushes, language activity, and PageSpeed availability" width="100%" />
 
-The cards refresh from public GitHub data. [GitHub's contribution calendar](https://github.com/shadysbasement?tab=overview) is the live source. Language and PageSpeed panels will fill in when there's public source code and a site to measure.
+The cards refresh from public GitHub data. [GitHub's contribution calendar](https://github.com/shadysbasement?tab=overview) is the live source. Languages will fill in as public source code appears. PageSpeed stays blank until I publish a site and add an audit.
 
 ### Tech stack
 
