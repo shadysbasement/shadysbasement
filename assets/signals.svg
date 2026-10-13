@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="325" viewBox="0 0 680 325">
+<rect x="0" y="0" width="680" height="325" rx="0" fill="#0d1117" stroke="none" stroke-width="1"/>
+<rect x="1" y="1" width="678" height="323" rx="11" fill="none" stroke="#303846" stroke-width="1"/>
+<text x="27" y="34" fill="#59a7ff" font-family="JetBrains Mono,monospace" font-size="15" font-weight="700">PUBLIC SIGNALS</text>
+<text x="27" y="65" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="15" font-weight="600">Recent pushes by weekday</text>
+<text x="27" y="89" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="12" font-weight="400">Last 30 days; public events only</text>
+<line x1="340" y1="49" x2="340" y2="185" stroke="#303846"/>
+<text x="363" y="65" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="15" font-weight="600">Language activity</text>
+<rect x="31" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<text x="36" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">M</text>
+<rect x="74" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<text x="79" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
+<rect x="117" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<text x="122" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">W</text>
+<rect x="160" y="103" width="23" height="62" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
+<text x="165" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
+<rect x="203" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<text x="208" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">F</text>
+<rect x="246" y="159" width="23" height="6" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
+<text x="251" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">S</text>
+<rect x="289" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<text x="294" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">S</text>
+<text x="363" y="103" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="14" font-weight="400">No public source repos yet.</text>
+<text x="363" y="127" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="12" font-weight="400">This will fill in as code ships.</text>
+<line x1="27" y1="200" x2="653" y2="200" stroke="#303846"/>
+<text x="27" y="228" fill="#59a7ff" font-family="Noto Sans,sans-serif" font-size="15" font-weight="600">PageSpeed Insights</text>
+<text x="27" y="249" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="12" font-weight="400">No public site linked yet</text>
+<circle cx="225" cy="251" r="19" fill="none" stroke="#345545" stroke-width="2"/>
+<text x="215" y="256" fill="#4ec77c" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">--</text>
+<text x="186.5" y="296" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="10" font-weight="500">PERFORMANCE</text>
+<circle cx="335" cy="251" r="19" fill="none" stroke="#345545" stroke-width="2"/>
+<text x="325" y="256" fill="#4ec77c" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">--</text>
+<text x="289.5" y="296" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="10" font-weight="500">ACCESSIBILITY</text>
+<circle cx="445" cy="251" r="19" fill="none" stroke="#345545" stroke-width="2"/>
+<text x="435" y="256" fill="#4ec77c" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">--</text>
+<text x="413.5" y="296" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="10" font-weight="500">PRACTICES</text>
+<circle cx="555" cy="251" r="19" fill="none" stroke="#345545" stroke-width="2"/>
+<text x="545" y="256" fill="#4ec77c" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">--</text>
+<text x="544.5" y="296" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="10" font-weight="500">SEO</text>
+</svg>
