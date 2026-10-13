@@ -125,7 +125,7 @@ def activity_card(user, repos, calendar):
     return svg(680, 329, "\n".join(s))
 
 
-def signal_card(repos, events, now):
+def signal_card(user, repos, events, now):
     since = now - timedelta(days=30)
     pushes = [event for event in events if event.get("type") == "PushEvent"
               and datetime.fromisoformat(event["created_at"].replace("Z", "+00:00")) >= since]
@@ -160,10 +160,11 @@ def signal_card(repos, events, now):
     else:
         s += [text(363, 103, "No public source repos yet.", 14, DIM),
               text(363, 127, "This will fill in as code ships.", 12, DIM)]
+    site_status = "Site linked; audit not configured" if user.get("blog", "").strip() else "No public site linked yet"
     s += [
         line(27, 200, 653, 200),
         text(27, 228, "PageSpeed Insights", 15, BLUE, 600),
-        text(27, 249, "No public site linked yet", 12, DIM),
+        text(27, 249, site_status, 12, DIM),
     ]
     for i, label in enumerate(("PERFORMANCE", "ACCESSIBILITY", "PRACTICES", "SEO")):
         cx = 225 + i * 110
@@ -184,7 +185,7 @@ def main():
     calendar = get_calendar(args.calendar_json)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     (args.output_dir / "activity.svg").write_text(activity_card(user, repos, calendar))
-    (args.output_dir / "signals.svg").write_text(signal_card(repos, events, now))
+    (args.output_dir / "signals.svg").write_text(signal_card(user, repos, events, now))
     print(f"Rendered public profile stats: {calendar['totalContributions']} contributions, {len(repos)} repos")
 
 
