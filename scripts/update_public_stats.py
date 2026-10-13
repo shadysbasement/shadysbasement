@@ -96,21 +96,21 @@ def activity_card(user, repos, calendar):
     s = [
         rect(0, 0, 680, 329, BG),
         rect(1, 1, 678, 327, "none", 11, RULE),
-        text(27, 34, "CONTRIBUTIONS / PUBLIC DATA", 15, BLUE, 700, True),
-        text(530, 34, "AUTO-UPDATED", 11, DIM, 400, True),
+        text(27, 34, "a bit of github activity", 15, BLUE, 700, True),
+        text(546, 34, "updated daily", 11, DIM, 400, True),
         text(27, 113, total, 69, FG, 700),
         text(120 if total < 10 else 155, 88, "contributions", 19, FG, 600),
         text(120 if total < 10 else 155, 113, "in the last year", 15, DIM),
         line(27, 132, 653, 132),
     ]
-    stat_values = [("PUBLIC REPOS", len(repos)), ("REPO STARS", stars), ("FOLLOWERS", user["followers"])]
+    stat_values = [("public repos", len(repos)), ("stars", stars), ("followers", user["followers"])]
     for i, (label, value) in enumerate(stat_values):
         x = 28 + i * 211
         s.extend((text(x, 160, label, 12, DIM, 600, True), text(x, 190, value, 25, FG, 700)))
     s += [
         line(27, 205, 653, 205),
-        text(27, 231, "Recent contribution calendar", 15, BLUE, 600),
-        text(477, 231, "LAST 18 WEEKS", 11, DIM, 400, True),
+        text(27, 231, "the last few months", 15, BLUE, 600),
+        text(498, 231, "last 18 weeks", 11, DIM, 400, True),
     ]
     for col, week in enumerate(weeks):
         for row, day in enumerate(week["contributionDays"]):
@@ -118,9 +118,9 @@ def activity_card(user, repos, calendar):
             color = "#242d36" if value == 0 else "#1d5f3b" if value == 1 else "#2d995a" if value < 4 else GREEN
             s.append(rect(28 + col * 24, 246 + row * 10, 17, 7, color, 1))
     s += [
-        text(484, 265, "Public work only", 13, FG),
-        text(484, 286, "Each square is", 12, DIM),
-        text(484, 303, "one day.", 12, DIM),
+        text(484, 265, "just public work", 13, FG),
+        text(484, 286, "one square", 12, DIM),
+        text(484, 303, "for each day", 12, DIM),
     ]
     return svg(680, 329, "\n".join(s))
 
@@ -136,13 +136,13 @@ def signal_card(user, repos, events, now):
             continue
         languages.update(request_json(repo["languages_url"]))
     s = [
-        rect(0, 0, 680, 325, BG),
-        rect(1, 1, 678, 323, "none", 11, RULE),
-        text(27, 34, "PUBLIC SIGNALS", 15, BLUE, 700, True),
-        text(27, 65, "Recent pushes by weekday", 15, FG, 600),
-        text(27, 89, "Last 30 days; public events only", 12, DIM),
+        rect(0, 0, 680, 266, BG),
+        rect(1, 1, 678, 264, "none", 11, RULE),
+        text(27, 34, "what i've been up to", 15, BLUE, 700, True),
+        text(27, 65, "pushes by day", 15, FG, 600),
+        text(27, 89, "from the last 30 days", 12, DIM),
         line(340, 49, 340, 185),
-        text(363, 65, "Language activity", 15, FG, 600),
+        text(363, 65, "languages in my repos", 15, FG, 600),
     ]
     max_count = max(by_day.values(), default=0)
     for day, label in enumerate("MTWTFSS"):
@@ -158,19 +158,17 @@ def signal_card(user, repos, events, now):
             s += [text(363, y, name, 13, FG), rect(500, y - 12, 140, 8, "#25313a", 4),
                   rect(500, y - 12, max(3, round(140 * amount / total)), 8, GREEN, 4)]
     else:
-        s += [text(363, 103, "No public source repos yet.", 14, DIM),
-              text(363, 127, "This will fill in as code ships.", 12, DIM)]
-    site_status = "Site linked; audit not configured" if user.get("blog", "").strip() else "No public site linked yet"
+        s += [text(363, 103, "nothing public here yet.", 14, DIM),
+              text(363, 127, "i'll fill this in as i share code.", 12, DIM)]
+    site_status = ("i've linked a site, but haven't added an audit yet."
+                   if user.get("blog", "").strip() else
+                   "nothing to measure yet. i'll add this when i put a site up.")
     s += [
         line(27, 200, 653, 200),
-        text(27, 228, "PageSpeed Insights", 15, BLUE, 600),
-        text(27, 249, site_status, 12, DIM),
+        text(27, 229, "page speed", 15, BLUE, 600),
+        text(145, 229, site_status, 13, DIM),
     ]
-    for i, label in enumerate(("PERFORMANCE", "ACCESSIBILITY", "PRACTICES", "SEO")):
-        cx = 225 + i * 110
-        s += [circle(cx, 251, 19, "#345545", 2), text(cx - 10, 256, "--", 13, GREEN, 700, True),
-              text(cx - (len(label) * 3.5), 296, label, 10, DIM, 500, True)]
-    return svg(680, 325, "\n".join(s))
+    return svg(680, 266, "\n".join(s))
 
 
 def main():
