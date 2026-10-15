@@ -8,7 +8,7 @@
 <text x="363" y="65" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="15" font-weight="600">languages in my repos</text>
 <rect x="31" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
 <text x="36" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">M</text>
-<rect x="74" y="131" width="23" height="34" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
+<rect x="74" y="103" width="23" height="62" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="79" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
 <rect x="117" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
 <text x="122" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">W</text>
