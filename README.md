@@ -4,7 +4,7 @@
 
 ## hiiiii
 
-i'm sufyan. i use arch linux, i'm part of Hack Club, and i keep ending up with projects that make me learn something completely different halfway through. right now that's a TemPad inspired by Loki, a game where the operating system is part of the puzzle, and some eBPF research.
+i'm sufyan. i keep ending up with projects that make me learn something completely different halfway through. right now that's a TemPad inspired by Loki, a game where the operating system is part of the puzzle, and some eBPF research.
 
 ### stuff i'm making
 
