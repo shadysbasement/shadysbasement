@@ -3,12 +3,12 @@
 <rect x="1" y="1" width="678" height="327" rx="11" fill="none" stroke="#303846" stroke-width="1"/>
 <text x="27" y="34" fill="#59a7ff" font-family="JetBrains Mono,monospace" font-size="15" font-weight="700">a bit of github activity</text>
 <text x="546" y="34" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="11" font-weight="400">updated daily</text>
-<text x="27" y="113" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="69" font-weight="700">20</text>
+<text x="27" y="113" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="69" font-weight="700">22</text>
 <text x="155" y="88" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="19" font-weight="600">contributions</text>
 <text x="155" y="113" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="15" font-weight="400">in the last year</text>
 <line x1="27" y1="132" x2="653" y2="132" stroke="#303846"/>
 <text x="28" y="160" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="600">public repos</text>
-<text x="28" y="190" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="25" font-weight="700">1</text>
+<text x="28" y="190" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="25" font-weight="700">2</text>
 <text x="239" y="160" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="600">stars</text>
 <text x="239" y="190" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="25" font-weight="700">0</text>
 <text x="450" y="160" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="600">followers</text>
@@ -140,7 +140,8 @@
 <rect x="436" y="266" width="17" height="7" rx="1" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <rect x="436" y="276" width="17" height="7" rx="1" fill="#242d36" stroke="none" stroke-width="1"/>
 <rect x="436" y="286" width="17" height="7" rx="1" fill="#1d5f3b" stroke="none" stroke-width="1"/>
-<rect x="436" y="296" width="17" height="7" rx="1" fill="#1d5f3b" stroke="none" stroke-width="1"/>
+<rect x="436" y="296" width="17" height="7" rx="1" fill="#2d995a" stroke="none" stroke-width="1"/>
+<rect x="436" y="306" width="17" height="7" rx="1" fill="#242d36" stroke="none" stroke-width="1"/>
 <text x="484" y="265" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="13" font-weight="400">just public work</text>
 <text x="484" y="286" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="12" font-weight="400">one square</text>
 <text x="484" y="303" fill="#9daab8" font-family="Noto Sans,sans-serif" font-size="12" font-weight="400">for each day</text>
