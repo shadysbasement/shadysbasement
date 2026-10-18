@@ -14,7 +14,7 @@
 <text x="122" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">W</text>
 <rect x="160" y="103" width="23" height="62" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="165" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
-<rect x="203" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<rect x="203" y="159" width="23" height="6" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="208" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">F</text>
 <rect x="246" y="159" width="23" height="6" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="251" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">S</text>
