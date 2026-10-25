@@ -16,7 +16,7 @@
 <text x="165" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
 <rect x="203" y="159" width="23" height="6" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="208" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">F</text>
-<rect x="246" y="147" width="23" height="18" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
+<rect x="246" y="141" width="23" height="24" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="251" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">S</text>
 <rect x="289" y="159" width="23" height="6" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="294" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">S</text>
