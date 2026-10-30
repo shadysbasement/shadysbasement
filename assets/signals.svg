@@ -10,7 +10,7 @@
 <text x="36" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">M</text>
 <rect x="74" y="103" width="23" height="62" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="79" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
-<rect x="117" y="165" width="23" height="0" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
+<rect x="117" y="162" width="23" height="3" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="122" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">W</text>
 <rect x="160" y="127" width="23" height="38" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <text x="165" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">T</text>
@@ -22,11 +22,11 @@
 <text x="294" y="184" fill="#9daab8" font-family="JetBrains Mono,monospace" font-size="12" font-weight="400">S</text>
 <text x="363" y="94" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="13" font-weight="400">Python</text>
 <rect x="500" y="82" width="140" height="8" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
-<rect x="500" y="82" width="134" height="8" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
-<text x="363" y="123" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="13" font-weight="400">Ruby</text>
+<rect x="500" y="82" width="132" height="8" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
+<text x="363" y="123" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="13" font-weight="400">GDScript</text>
 <rect x="500" y="111" width="140" height="8" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
-<rect x="500" y="111" width="3" height="8" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
-<text x="363" y="152" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="13" font-weight="400">GDScript</text>
+<rect x="500" y="111" width="5" height="8" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
+<text x="363" y="152" fill="#e6edf3" font-family="Noto Sans,sans-serif" font-size="13" font-weight="400">Ruby</text>
 <rect x="500" y="140" width="140" height="8" rx="4" fill="#25313a" stroke="none" stroke-width="1"/>
 <rect x="500" y="140" width="3" height="8" rx="4" fill="#4ec77c" stroke="none" stroke-width="1"/>
 <line x1="27" y1="200" x2="653" y2="200" stroke="#303846"/>
