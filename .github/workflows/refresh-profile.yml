@@ -1,4 +1,4 @@
-name: Refresh profile cards
+name: Refresh contribution animation
 
 on:
   schedule:
@@ -24,19 +24,22 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Render public activity cards
+      - name: Install image renderer
+        run: python -m pip install Pillow==11.3.0
+
+      - name: Render real public contributions
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python scripts/update_public_stats.py
+        run: python scripts/render_profile.py
 
-      - name: Commit changed cards
+      - name: Commit changed animation
         run: |
-          git add assets/activity.svg assets/signals.svg
+          git add assets/matrix-hero.gif assets/contributions.gif
           if git diff --cached --quiet; then
-            echo "No public stats changed"
+            echo "No public contributions changed"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Refresh public profile cards"
+          git commit -m "Refresh contribution animation"
           git push
